@@ -1,0 +1,68 @@
+/////////////////////
+//////Category///////
+/////////////////////
+
+.category-container {
+  width: 100wv;
+  display: flex;
+  .category1 {
+    width: 100px;
+    background-color: aqua;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .category2 {
+    width: 100px;
+    background-color: aqua;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+/////////////////////
+////////Itsem////////
+/////////////////////
+.items-container {
+  .items1-box {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    .items1 {
+      // display: none;
+      .item-img {
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+      }
+      .item-text {
+        text-align: center;
+        font-size: 20px;
+        .item-name {
+        }
+        .item-price {
+        }
+      }
+    }
+  }
+  .items2-box {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    .items2 {
+      // display: none;
+      .item-img {
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+      }
+      .item-text {
+        text-align: center;
+        font-size: 20px;
+        .item-name {
+        }
+        .item-price {
+        }
+      }
+    }
+  }
+}
